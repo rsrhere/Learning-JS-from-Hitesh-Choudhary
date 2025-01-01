@@ -1,27 +1,15 @@
-console.log("hello world");
-studentName = "Abhishek"
-var rollNo = 78
-let mobNo = 7878121245
-const address = "7, Ganesh Vihar, Niwaru, Jaipur"
-console.log(studentName);
-console.table([studentName,rollNo,mobNo,address])
-if ( studentName=="Abhishek") {console.log("Student name is", studentName)
-    
-}
-if (rollNo==78) {rollNo=79, console.log(rollNo)
-    
-} else {console.log("wrong")
-    
-}
-let a=1
-while (mobNo==7878121245) {
-    console.log(a)
-    a=a+1          
-    
-}
-// that's all man
-/*
-what have you been doing these days?
-i am asking something.
-why are you not replying?
+const rollNo = 21
+var address = "Jaipur"
+let mobileNo = 7878787878
+studentName = "Abhishek" // variables can be declared this way also in js, but it's not the right way
+let dob;
+
+// rollNo = 22 // not allowed
+
+/* 
+Prefer not to use var 
+because of the issue in block scope and functional scope.
 */
+
+console.log(rollNo);
+console.table([rollNo,address,mobileNo,studentName,dob]);

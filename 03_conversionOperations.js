@@ -37,7 +37,7 @@ Boolean conversion:-
 let isTrue = true
 let isFalse = false
 let stringisNumber = String(isNumber)
-let stringIsTrue = String(true)
+let stringIsTrue = String(isTrue)
 
 // console.log(typeof stringisNumber, stringisNumber);
 // console.log(typeof stringIsTrue, stringIsTrue);
