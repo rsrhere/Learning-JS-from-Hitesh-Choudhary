@@ -4,8 +4,8 @@
 
 console.log(3
     +
-    3
-) // although this code will work but code readability should be taken care of
+    3) 
+// although this code will work but code readability should be taken care of
 // This isn't a good coding practice
 
 let name = "Rahul"
@@ -23,7 +23,6 @@ Common datatypes
 -not defined
 -symbol => unique
 -Boolean => true/false
-
 -Object
 */
 
